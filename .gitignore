@@ -1,0 +1,79 @@
+# Ignore binary files and compiled code
+*.exe
+*.dll
+*.pdb
+*.app
+*.dylib
+*.icns
+*.so
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.vsidx
+ipch/
+*.ipch
+
+# Ignore build and intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore user-specific settings
+*.suo
+*.user
+*.userprefs
+*.opendb
+*.VC.db
+.vscode/
+
+# Ignore Unreal file types
+*.log
+*.temp
+*.csproj
+*.sln
+*.sdf
+*.tlog
+*.vcxproj*
+*.opensdf
+*.VC.opendb
+*.pidb
+*.obj
+*.pch
+*.psess
+*.pdb
+*.rsp
+*.bin
+*.o
+*.dat
+*.dump
+*.dmp
+
+# Ignore Mac OS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+
+# Cache and temporary files
+*.stackdump
+*.swp
+*~.*
+*.tmp
+
+# Ignore auto-generated folders for plugins
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
+
+# Ignore build artifacts from Packaging
+*.ipa
+*.iapp
+*.zip
+*.tar.gz
+*.dmg
